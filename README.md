@@ -24,3 +24,8 @@ A collection of algorithms & Data Structures in C++
 | [Rotate Array](https://leetcode.com/problems/reverse-words-in-a-string/)                                          | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/LeetCode%20Explore/Rotate%20Array.cpp)                                      |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                     | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/LeetCode%20Explore/Spiral%20Matrix.cpp)                                     |
 | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                 | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/LeetCode%20Explore/Two%20Sum2.cpp)                                          |
+
+## Practise Sessions Topic Wise
+
+| Problem | Solution |
+| ------- | -------- |
