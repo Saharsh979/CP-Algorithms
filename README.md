@@ -27,9 +27,8 @@ A collection of algorithms & Data Structures in C++
 
 ## Graphs
 
-| Problem | Solution |
-| ------- | -------- |
-
+| Problem                                                                                     | Solution                                                                                                    |
+| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | [All Possible Paths Graphs](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/All%20Possible%20paths%20graph.cpp) |
 
 |[Graph Network]()|[Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Graph%20network.cpp)|
