@@ -27,14 +27,13 @@ A collection of algorithms & Data Structures in C++
 
 ## Graphs
 
-| Problem                                                                                     | Solution                                                                                                    |
-| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [All Possible Paths Graphs](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/All%20Possible%20paths%20graph.cpp) |
-
-|[Graph Network]()|[Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Graph%20network.cpp)|
-|[Min no of Nodes to reach all vertices](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Minimum%20Number%20Nodes%20to%20reach%20all%20vertices.cpp)|
-|[Minimum Path Sums](https://leetcode.com/problems/path-with-minimum-effort/)|[Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Minimum%20path%20Sum.cpp)|
-|[Number of Provinces](https://leetcode.com/problems/number-of-provinces)|[Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Number%20Of%20Provinces.cpp)|
+| Problem                                                                                                               | Solution                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [All Possible Paths Graphs](https://leetcode.com/problems/all-paths-from-source-to-target/)                           | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/All%20Possible%20paths%20graph.cpp)                         |
+| [Graph Network]()                                                                                                     | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Graph%20network.cpp)                                        |
+| [Min no of Nodes to reach all vertices](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Minimum%20Number%20Nodes%20to%20reach%20all%20vertices.cpp) |
+| [Minimum Path Sums](https://leetcode.com/problems/path-with-minimum-effort/)                                          | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Minimum%20path%20Sum.cpp)                                   |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces)                                              | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Number%20Of%20Provinces.cpp)                                |
 
 |[Safe Spots](https://leetcode.com/problems/find-eventual-safe-states/)|[Solution](https://leetcode.com/problems/number-of-provinces)|
 |[Bipartite Grapg test](https://leetcode.com/problems/possible-bipartition/)|[Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/bipartite%20graph%20test.cpp)|
