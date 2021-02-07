@@ -36,4 +36,8 @@ A collection of algorithms & Data Structures in C++
 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces)                                              | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Number%20Of%20Provinces.cpp)                                |
 | [Safe Spots](https://leetcode.com/problems/find-eventual-safe-states/)                                                | [Solution](https://leetcode.com/problems/number-of-provinces)                                                                       |
 | [Bipartite Grapg test](https://leetcode.com/problems/possible-bipartition/)                                           | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/bipartite%20graph%20test.cpp)                               |
+<<<<<<< HEAD
 | [Maximize Malware Spread](https://leetcode.com/problems/minimize-malware-spread-ii/)                                  | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Malware%20Spread.cpp)                                       |
+=======
+| [Maximize Malware Spread](https://leetcode.com/problems/minimize-malware-spread-ii/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Malware%20Spread.cpp) |
+>>>>>>> 6c519b9d00a69f741614f799cd61a4ebbc491b0d
