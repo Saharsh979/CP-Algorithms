@@ -38,3 +38,21 @@ A collection of algorithms & Data Structures in C++
 | [Bipartite Grapg test](https://leetcode.com/problems/possible-bipartition/)                                           | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/bipartite%20graph%20test.cpp)                               |
 |                                                                                                                       |
 | [Maximize Malware Spread](https://leetcode.com/problems/minimize-malware-spread-ii/)                                  | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Graphs/Malware%20Spread.cpp)                                       |
+
+## Dynamic Programming
+
+| Problem                                                                                              | Solution                                                                                                                             |
+| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [Decode Ways](https://leetcode.com/problems/decode-ways/)                                            | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Decode%20Ways%20Dp.cpp)                       |
+| [Longest Palindromic Subsequence DP](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Longest%20Palindromic%20Subsequence%20DP.cpp) |
+| [Longest Palindromic Substring DP](https://leetcode.com/problems/longest-palindromic-substring/)     | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Longest%20Palindromic%20Substring%20DP.cpp)   |
+| [Min Cost Climbing Stairs DP](//https://leetcode.com/problems/min-cost-climbing-stairs/)             | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Min%20Cost%20Climbing%20Stairs%20DP.cpp)      |
+| [Palindromic Substrings DP](https://leetcode.com/problems/palindromic-substrings/)                   | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Palindromic%20Substrings%20DP.cpp)            |
+| [Range Sum Range DP.](https://leetcode.com/problems/range-sum-query-immutable/)                      | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Range%20Sum%20Range%20DP.cpp)                 |
+| [IS Subsequence Dp.](https://leetcode.com/problems/is-subsequence/)                                  | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/iS%20Subsequence%20Dp.cpp)                    |
+
+## Stack
+
+| Problem                                                          | Solution                                                                                                      |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [132 Pattern Medium](https://leetcode.com/problems/132-pattern/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/132%20pattern%20medium%20leetcode.cpp) |
