@@ -50,6 +50,16 @@ A collection of algorithms & Data Structures in C++
 | [Palindromic Substrings DP](https://leetcode.com/problems/palindromic-substrings/)                   | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Palindromic%20Substrings%20DP.cpp)            |
 | [Range Sum Range DP.](https://leetcode.com/problems/range-sum-query-immutable/)                      | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/Range%20Sum%20Range%20DP.cpp)                 |
 | [IS Subsequence Dp.](https://leetcode.com/problems/is-subsequence/)                                  | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Dynamic%20Programming/iS%20Subsequence%20Dp.cpp)                    |
+| [Coin Change 2]()                                                                                    | [Solution]()                                                                                                                         |
+| [Coin Change 1 ]()                                                                                   | [Solution]()                                                                                                                         |
+| [Count Sorted Vowels]()                                                                              | [Solution]()                                                                                                                         |
+| [Count Square Submatrices]()                                                                         | [Solution]()                                                                                                                         |
+| [Jump Game 2]()                                                                                      | [Solution]()                                                                                                                         |
+| [Jump Game]()                                                                                        | [Solution]()                                                                                                                         |
+| [Maximum Length of Repeated Subarray]()                                                              | [Solution]()                                                                                                                         |
+| [Stone Game 1]()                                                                                     | [Solution]()                                                                                                                         |
+| [Stone Game 6]()                                                                                     | [Solution]()                                                                                                                         |
+| [Wildcard Matching]()                                                                                | [Solution]()                                                                                                                         |
 
 ## Stack
 
