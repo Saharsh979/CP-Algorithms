@@ -1,26 +1,78 @@
-class Solution {
+class Solution
+{
 public:
-    bool find132pattern(vector<int>& nums) {
-        if(nums.size()<3){
+    bool canJump(vector<int> &nums)
+    {
+        int n = nums.size();
+        int dp[n + 1];
+        int vis[n + 1];
+        memset(vis, 0, sizeof(vis));
+        bool win = false;
+        bool flag = false;
+        if (nums[0] == 0 && nums.size() == 1)
+        {
+            return true;
+        }
+        else
+        {
             return false;
         }
-       stack<int>s;
-        int mini[nums.size()];
-        mini[0]=nums[0];
-        for(int i=1;i<nums.size();i++){
-            mini[i]=min(nums[i], mini[i-1]);
-        }
-        for(int i=nums.size()-1;i>=0;i--){
-            if(nums[i]> mini[i]){
-                while(!s.empty() && s.top()<= mini[i]){
-                    s.pop();
+        vis[nums[0]] = 1;
+        for (int i = 0; i < nums.size(); i++)
+        {
+
+            if (nums[i] == 0)
+            {
+                continue;
+            }
+            else
+            {
+                if (vis[i] == 1)
+                {
+                    int x = nums[i];
+                    int j = i + 1;
+                    while (x--)
+                    {
+                        vis[j] = 1;
+                        if (j < n - 1)
+                        {
+                            j++;
+                            continue;
+                        }
+                        else
+                        {
+                            if (x > 0)
+                            {
+                                win = true;
+                                flag = true;
+                                break;
+                            }
+                            else
+                            {
+                                flag = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (flag == false)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
-                if(!s.empty() && s.top()< nums[i]){
-                    return true;
-                }
-                s.push(nums[i]);
             }
         }
-        return false;
+
+        if (win || (vis[n - 1] && nums[n - 1] > 0))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 };
