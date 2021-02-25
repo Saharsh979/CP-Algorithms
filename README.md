@@ -63,6 +63,11 @@ A collection of algorithms & Data Structures in C++
 
 ## Stack
 
-| Problem                                                          | Solution                                                                                                      |
-| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [132 Pattern Medium](https://leetcode.com/problems/132-pattern/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/132%20pattern%20medium%20leetcode.cpp) |
+| Problem                                                                                                            | Solution                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| [132 Pattern Medium](https://leetcode.com/problems/132-pattern/)                                                   | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/132%20pattern%20medium%20leetcode.cpp)                     |
+| [Daily Temperatures Stack](https://leetcode.com/problems/daily-temperatures/)                                      | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Daily%20Temperatures%20Stack%20.cpp)                       |
+| [Largest Histogram Stack](https://leetcode.com/problems/largest-rectangle-in-histogram/)                           | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Largest%20Histogram%20Stack.cpp)                           |
+| [Next Greater Element 1 Stack](https://leetcode.com/problems/next-greater-element-i/)                              | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Next%20Greater%20Element%201%20Stack.cpp)                  |
+| [Next Greater Element 2 Stack](https://leetcode.com/problems/next-greater-element-ii/)                             | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Next%20Greater%20Element%202%20Stack.cpp)                  |
+| [Shortest Unsorted Continuos Subarray Stack](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Shortest%20Unsorted%20Continuos%20Subarray%20Stack%20.cpp) |
