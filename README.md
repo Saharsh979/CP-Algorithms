@@ -71,3 +71,32 @@ A collection of algorithms & Data Structures in C++
 | [Next Greater Element 1 Stack](https://leetcode.com/problems/next-greater-element-i/)                              | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Next%20Greater%20Element%201%20Stack.cpp)                  |
 | [Next Greater Element 2 Stack](https://leetcode.com/problems/next-greater-element-ii/)                             | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Next%20Greater%20Element%202%20Stack.cpp)                  |
 | [Shortest Unsorted Continuos Subarray Stack](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Stack/Shortest%20Unsorted%20Continuos%20Subarray%20Stack%20.cpp) |
+
+## Codeforces
+
+| Problem                             | Solution                                                                                                        |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| [A_ABC_String]()                    | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/A_ABC_String.cpp)                   |
+| [Dense_Array]()                     | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/A_Dense_Array.cpp)                  |
+| [A_K_th_Largest_Value]()            | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/A_K_th_Largest_Value.cpp)           |
+| [Berland Crossword]()               | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/B_Berland_Crossword.cpp)            |
+| [B_Omkar_and_Last_Class_of_Math.]() | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/B_Omkar_and_Last_Class_of_Math.cpp) |
+| [1D sukoban]()                      | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/C_1D_Sokoban.cpp)                   |
+| [Social Distance C]()               | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/C_Social_Distance.cpp)              |
+| [E_Polygon]()                       | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Codeforces/E_Polygon.cpp)                      |
+
+## Leetcode String
+
+| Problem                                                                                                                          | Solution                                                                                                                                                  |
+| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [tring Complex Number Multiplication Leetcode](//https://leetcode.com/problems/complex-number-multiplication/)                   | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/String%20Complex%20Number%20Multiplication%20Leetcode.cpp)                      |
+| [String balanced paranthesis](//https://leetcode.com/problems/generate-parentheses/)                                             | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/String%20balanced%20paranthesis.cpp)                                            |
+| [Strings Anagrams Leetcode](//https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)                | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Anagrams%20Leetcode.cpp)                                              |
+| [Strings Bulb Switcher.](//https://leetcode.com/problems/bulb-switcher-iv/)                                                      | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Bulb%20Switcher.cpp)                                                  |
+| [Strings Find kth bit in nth binary string](//https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)                  | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Find%20kth%20bit%20in%20nth%20binary%20string%20.cpp)                 |
+| [Strings MaxNumber of Occurences of a substring.](//https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/) | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20MaxNumber%20of%20Occurences%20of%20a%20substring.cpp)                 |
+| [Strings Min Number of Frogs Croaking](//https://leetcode.com/problems/minimum-number-of-frogs-croaking/)                        | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Min%20Number%20of%20Frogs%20Croaking.cpp)                             |
+| [Strings Min Swap to make string equal](//https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)                    | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Min%20Swap%20to%20make%20string%20equal.cpp)                          |
+| [Strings Number of steps to reduce a binary number to 0.]()                                                                      | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Number%20of%20steps%20to%20reduce%20a%20binary%20number%20to%200.cpp) |
+| [Strings Reorganize String](//https://leetcode.com/problems/reorganize-string/)                                                  | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Reorganize%20String.cpp)                                              |
+| [Strings Valid Palindrome 2](//https://leetcode.com/problems/valid-palindrome-ii/)                                               | [Solution](https://github.com/Saharsh979/CP-Algorithms/blob/main/Leetcode/Strings%20Valid%20Palindrome%202.cpp)                                           |
