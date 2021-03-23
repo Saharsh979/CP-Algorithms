@@ -1,87 +1,53 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()
 {
-    long long int t;
-    cin >> t;
-    while (t--)
+    long long int T;
+    cin >> T;
+    while (T--)
     {
-        long long int a, b, c, t, e, n, h;
+        long long int n, a, b, c, e, h, i, j;
+        set<long long int> values;
         cin >> n >> e >> h >> a >> b >> c;
+
+        long long int flag = 0;
+
+        long long int x = a - c, y = b - c;
+
         long long int ans = INT_MAX;
-        set<long long int> setvalues;
-        if ((e / 2) >= n)
+
+        for (i = 0; i <= n; i++)
         {
-            long long int value = a * n;
-            ans = min(ans, value);
-            setvalues.insert(value);
-        }
-        if ((h / 3) >= n)
-        {
-            long long int value = b * n;
-            ans = min(ans, value);
-            setvalues.insert(value);
-        }
-        if (min(e, h) >= n)
-        {
-            long long int value = c * n;
-            ans = min(ans, value);
-            setvalues.insert(value);
-        }
-        if ((((h - n) / 2) >= 1) && ((h - n) / 2) >= n - e)
-        {
-            if (b < c)
+            for (j = 0; j <= n; j++)
             {
-                long long int temp = min(n - 1, (h - n) / 2);
-                long long int value = (b - c) * temp + n * c;
-                ans = min(ans, (b - c) * temp + n * c);
-                setvalues.insert(value);
-            }
-            else
-            {
-                long long int one = 1;
-                long long int temp = max(one, n - e);
-                long long int value = (b - c) * temp + n * c;
-                ans = min(ans, value);
-                setvalues.insert(value);
+                long long int mincost = xi + yj + cn;
+
+                if (((i - j + n) <= e) && ((2j - i + n) <= h))
+                {
+                    if ((n - i - j) >= 0)
+                    {
+                        flag = 1;
+                        values.insert(mincost);
+                    }
+                }
             }
         }
-        if (((e - n) >= 1) && ((e - n) >= n - h))
+        if (flag == 1)
         {
-            if (a < c)
+            long long int ans = INT_MAX;
+            for (auto it : values)
             {
-                long long int temp = min(n - 1, (e - n));
-                long long int value = (a - c) * temp + n * c;
-                ans = min(ans, value);
-                setvalues.insert(value);
+                ans = min(ans, it);
             }
-            else
-            {
-                long long int one = 1;
-                long long int temp = max(one, n - h);
-                long long int value = (a - c) * temp + n * c;
-                ans = min(ans, value);
-                setvalues.insert(value);
-            }
+            cout << ans << "\n";
         }
-        if ((((e / 2) >= 1) && (e/2 >= (3*n - h+2)/3))
+        else
         {
-            if (a < b)
-            {
-                long long int temp = min(n - 1, e / 2);
-                long long int value = (a - b) * k + n * b;
-                ans = min(ans, value);
-                setvalues.insert(value);
-            }
-            else
-            {
-                long long int one = 1;
-                long long int temp = max(one, (3 * n - h + 2) / 3);
-                long long int value = (a - b) * k + n * b;
-                ans = min(ans, value);
-                setvalues.insert(value);
-            }
+            cout << "-1"
+                 << "\n";
         }
     }
+    return 0;
 }

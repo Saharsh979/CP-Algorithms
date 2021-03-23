@@ -16,5 +16,6 @@
         "valarray": "cpp",
         "chrono": "cpp",
         "algorithm": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

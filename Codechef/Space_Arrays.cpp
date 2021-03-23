@@ -1,55 +1,49 @@
+#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    long long int t;
-    cin >> t;
-    while (t--)
+    int T;
+    cin >> T;
+    while (T--)
     {
-        long long int n;
-        cin >> n;
-        vector<int> arr(n);
-        for (long long int i = 0; i < n; i++)
+        int i, j, count = 0, N, flag = 0;
+        cin >> N;
+        int a[N + 1];
+        for (i = 1; i <= N; i++)
         {
-            long long int x;
-            cin >> x;
-            arr[i] = x;
+            cin >> a[i];
         }
-        sort(arr.begin(), arr.end());
-        bool flag = false;
-        long long int count = 0;
-        for (int i = 0; i < n; i++)
+        sort(a, a + N + 1);
+        for (j = 1; j <= N; j++)
         {
-            if (arr[i] > i + 1)
+            if (a[j] > i)
             {
-                flag = true;
+                cout << "Second" << endl;
+                flag = 1;
                 break;
             }
             else
             {
-                count++;
+                count = count + (j - a[j]);
             }
         }
-        if (flag)
+        if (flag == 1)
         {
-            cout << "Second" << endl;
+            continue;
         }
         else
         {
-            long long int no_of_turns = 0;
-            for (int i = 0; i < n; i++)
-            {
-                no_of_turns += ((i + 1) - arr[i]);
-            }
-            if (no_of_turns % 2 == 1)
-            {
-                cout << "First" << endl;
-            }
-            else
+            if (count % 2 == 0)
             {
                 cout << "Second" << endl;
             }
+            else
+            {
+                cout << "First" << endl;
+            }
         }
     }
+    return 0;
 }
