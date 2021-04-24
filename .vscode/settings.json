@@ -16,7 +16,9 @@
         "valarray": "cpp",
         "chrono": "cpp",
         "algorithm": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "random": "cpp",
+        "complex": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
