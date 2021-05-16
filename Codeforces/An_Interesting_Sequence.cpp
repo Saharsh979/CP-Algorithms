@@ -33,59 +33,44 @@ typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_
 #define setbits(x) __builtin_popcountll(x)
 #define zrobits(x) __builtin_ctzll(x)
 #define preci(x, y) fixed << setprecision(y) << x
+#define mod 1000000007
 
-bool isprime(ll n)
-{
-    for (ll i = 2; i * i <= n; ++i)
-    {
-        if (n % i == 0)
-        {
-            return false;
-        }
-    }
-    return true;
-}
-ll factorial(ll n) { return (n == 1 || n == 0) ? 1 : n * factorial(n - 1); }
 ll gcd(ll a, ll b)
 {
     if (a == 0)
-        return b;
-    return gcd(b % a, a);
-}
-ll lcm(ll a, ll b) { return (a / gcd(a, b) * b); }
-ll max(ll a, ll b)
-{
-    ll sol = a > b ? a : b;
-    return sol;
-}
-ll min(ll a, ll b)
-{
-    ll sol = a < b ? a : b;
-    return sol;
-}
-
-ll fnd(ll n)
-{
-    if (n < 2050 || n % 2050)
-        return -1;
-    n /= 2050;
-    ll c = 0;
-    while (n)
     {
-        c += n % 10;
-        n /= 10;
+        return b;
     }
-    return c;
+    return gcd(b % a, a);
 }
 int main()
 {
-    int t;
+
+    ll t;
     cin >> t;
     while (t--)
     {
-        ll n;
-        cin >> n;
-        cout << fnd(n) << endl;
+        ll k;
+        cin >> k;
+        ll size = 2 * k + 1;
+        ll arr[2 * k + 2];
+        ll sq = 1;
+        for (int i = 1; i <= size; i++)
+        {
+            ll val = k + (i * i);
+            arr[i] = val;
+        }
+        ll results[2 * k];
+        for (int i = 1; i < size; i++)
+        {
+            ll curr_answer = gcd(arr[i], arr[i + 1]);
+            results[i] = curr_answer;
+        }
+        ll answer = 0;
+        for (int i = 1; i < size; i++)
+        {
+            answer += results[i];
+        }
+        cout << answer << endl;
     }
-    return 0;
 }

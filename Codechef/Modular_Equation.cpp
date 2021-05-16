@@ -33,59 +33,32 @@ typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_
 #define setbits(x) __builtin_popcountll(x)
 #define zrobits(x) __builtin_ctzll(x)
 #define preci(x, y) fixed << setprecision(y) << x
+#define mod 1000000007
 
-bool isprime(ll n)
-{
-    for (ll i = 2; i * i <= n; ++i)
-    {
-        if (n % i == 0)
-        {
-            return false;
-        }
-    }
-    return true;
-}
-ll factorial(ll n) { return (n == 1 || n == 0) ? 1 : n * factorial(n - 1); }
-ll gcd(ll a, ll b)
-{
-    if (a == 0)
-        return b;
-    return gcd(b % a, a);
-}
-ll lcm(ll a, ll b) { return (a / gcd(a, b) * b); }
-ll max(ll a, ll b)
-{
-    ll sol = a > b ? a : b;
-    return sol;
-}
-ll min(ll a, ll b)
-{
-    ll sol = a < b ? a : b;
-    return sol;
-}
-
-ll fnd(ll n)
-{
-    if (n < 2050 || n % 2050)
-        return -1;
-    n /= 2050;
-    ll c = 0;
-    while (n)
-    {
-        c += n % 10;
-        n /= 10;
-    }
-    return c;
-}
+//((M mod a) mod b)=((M mod b) mod a).
 int main()
 {
-    int t;
+    ll t;
     cin >> t;
     while (t--)
     {
-        ll n;
-        cin >> n;
-        cout << fnd(n) << endl;
+        ll n, m;
+        cin >> n >> m;
+        ll count = 0;
+        vector<ll> counter(n + 1, 1);
+        for (int i = 2; i <= n; i++)
+        {
+            ll curr_value = m % i;
+            count += counter[curr_value];
+            for (int j = curr_value; j <= n; j += i)
+            {
+                counter[j]++;
+                //if (((m % i) % j) == ((m % j) % i))
+                //   cout << i << " " << j << endl;
+                //   count++;
+            }
+        }
+        cout << count << endl;
     }
     return 0;
 }

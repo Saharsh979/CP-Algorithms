@@ -54,6 +54,15 @@ int MatrixChainMultiplication(int p[], int n)
     }
     return m[1][n - 1]; //returning the final answer which is M[1][n]
 }
+
+//Dimensions
+/*
+A1 = 10 x 100 
+A2 = 100 x 20 
+A3 = 20 x 5 
+A4 = 5 x 80;
+*/
+
 int main()
 {
     int n, i;

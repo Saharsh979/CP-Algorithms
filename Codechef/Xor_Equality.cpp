@@ -33,59 +33,37 @@ typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_
 #define setbits(x) __builtin_popcountll(x)
 #define zrobits(x) __builtin_ctzll(x)
 #define preci(x, y) fixed << setprecision(y) << x
+#define mod 1000000007
 
-bool isprime(ll n)
+#define MAX 100000
+
+ll power(long long x, ll y, ll p)
 {
-    for (ll i = 2; i * i <= n; ++i)
+    ll res = 1;
+    x = x % p;
+
+    if (x == 0)
+        return 0;
+
+    while (y > 0)
     {
-        if (n % i == 0)
-        {
-            return false;
-        }
+        if (y & 1)
+            res = (res * x) % p;
+        y = y >> 1;
+        x = (x * x) % p;
     }
-    return true;
-}
-ll factorial(ll n) { return (n == 1 || n == 0) ? 1 : n * factorial(n - 1); }
-ll gcd(ll a, ll b)
-{
-    if (a == 0)
-        return b;
-    return gcd(b % a, a);
-}
-ll lcm(ll a, ll b) { return (a / gcd(a, b) * b); }
-ll max(ll a, ll b)
-{
-    ll sol = a > b ? a : b;
-    return sol;
-}
-ll min(ll a, ll b)
-{
-    ll sol = a < b ? a : b;
-    return sol;
+    return res;
 }
 
-ll fnd(ll n)
-{
-    if (n < 2050 || n % 2050)
-        return -1;
-    n /= 2050;
-    ll c = 0;
-    while (n)
-    {
-        c += n % 10;
-        n /= 10;
-    }
-    return c;
-}
 int main()
 {
-    int t;
+    ll t;
     cin >> t;
     while (t--)
     {
         ll n;
         cin >> n;
-        cout << fnd(n) << endl;
+        ll val = power(2, n - 1, mod);
+        cout << val << endl;
     }
-    return 0;
 }
