@@ -1,6 +1,6 @@
 /*
 We can construct a graph by treating each person as a node and letting an edge between two nodes indicate that the two users are friends. If we want to find the path between two people, we start with one person and do a simple breadth-first search.
-so friend relationships are an undirected graph, and you represent individuals -> friends as an adjacency list. to find mutual friends of a source, you would search for all nodes that are a distance <= 2 away and not in the source's adjacency list with BFS/DFS and rank them based on the size of the intersection between the adjacency lists. this would be e + v for a single node and v(e + v) for all of them. there is probably a faster way to do this though.
+ to find mutual friends of a source, you would search for all nodes that are a distance >= 2 away and not in the source's adjacency list with BFS/DFS and rank them based on the size of the intersection between the adjacency lists. this would be e + v for a single node and v(e + v) for all of them. there is probably a faster way to do this though.
 
 1-> 3,2;
 2->1,4,5;
@@ -41,6 +41,8 @@ void BFS(int node)
 }
 int main()
 {
+    //We can construct a graph by treating each person as a node and letting an edge between two nodes indicate that the two users are friends.
+    //so friend relationships are an undirected graph, and you represent individuals -> friends as an adjacency list.
     int no_of_friends;
     int no_of_connections;
     cin >> no_of_friends >> no_of_connections;
