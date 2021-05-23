@@ -59,6 +59,7 @@ int main()
         if (it1 != arr.begin())
         {
             it1--;
+            //first = abs(x - arr[it1] - arr.begin());
             second = abs(x - arr[it1 - arr.begin()]);
         }
         cout << min(first, second) << endl;
