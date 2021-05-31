@@ -1,0 +1,1 @@
+{"name":"Local: LR Parser","url":"/home/bifrost/CP-Algorithms/LR Parser.c","tests":[{"id":1622284955573,"input":"id+id*id-id","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bifrost/CP-Algorithms/LR Parser.c","group":"local","local":true}
