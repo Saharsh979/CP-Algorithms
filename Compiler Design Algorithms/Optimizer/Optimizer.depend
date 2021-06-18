@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1623925808 source:/home/bifrost/CP-Algorithms/Compiler Design Algorithms/Optimizer/main.c
+	<stdio.h>
+	<curses.h>
+	<string.h>
+

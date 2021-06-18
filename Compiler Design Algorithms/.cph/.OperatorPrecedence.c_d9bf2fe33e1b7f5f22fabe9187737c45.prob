@@ -1,0 +1,1 @@
+{"name":"Local: OperatorPrecedence","url":"/home/bifrost/CP-Algorithms/Compiler Design Algorithms/OperatorPrecedence.c","tests":[{"id":1623905675876,"input":"i*(i+i)*i","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bifrost/CP-Algorithms/Compiler Design Algorithms/OperatorPrecedence.c","group":"local","local":true}

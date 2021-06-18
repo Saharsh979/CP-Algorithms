@@ -1,0 +1,1 @@
+{"name":"Local: LFU","url":"/home/bifrost/CP-Algorithms/Operating System/LFU.cpp","tests":[{"id":1623744249701,"input":"3\n5\n7 0 1 2 0 3 0 4 2 3 0 3 2 1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bifrost/CP-Algorithms/Operating System/LFU.cpp","group":"local","local":true}
