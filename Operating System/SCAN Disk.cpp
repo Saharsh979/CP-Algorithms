@@ -4,10 +4,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int size = 8;
 int disk_size = 200;
 
-void SCAN(int arr[], int head, string direction)
+void SCAN(int arr[], int head, string direction, int size)
 {
     int seek_count = 0;
     int distance, cur_track;
@@ -83,26 +82,24 @@ void SCAN(int arr[], int head, string direction)
 
     cout << "Total number of seek operations = "
          << seek_count << endl;
-
-    cout << "Seek Sequence is" << endl;
-
-    for (int i = 0; i < seek_sequence.size(); i++)
-    {
-        cout << seek_sequence[i] << endl;
-    }
 }
 
 // Driver code
 int main()
 {
+    int size;
+    cin >> size;
+    int arr[size];
+    for (int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+    int head;
+    cin >> head;
+    string direction;
+    cin >> direction;
 
-    // request array
-    int arr[size] = {176, 79, 34, 60,
-                     92, 11, 41, 114};
-    int head = 50;
-    string direction = "left";
-
-    SCAN(arr, head, direction);
+    SCAN(arr, head, direction, size);
 
     return 0;
 }

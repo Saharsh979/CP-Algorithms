@@ -2,13 +2,8 @@
 // C-SCAN Disk Scheduling algorithm
 #include <bits/stdc++.h>
 using namespace std;
-
-// Code by Vikram Chaurasia
-
-int size = 8;
 int disk_size = 200;
-
-void CSCAN(int arr[], int head)
+void CSCAN(int arr[], int head, int size)
 {
     int seek_count = 0;
     int distance, cur_track;
@@ -32,7 +27,6 @@ void CSCAN(int arr[], int head)
         if (arr[i] > head)
             right.push_back(arr[i]);
     }
-
     // sorting left and right vectors
     std::sort(left.begin(), left.end());
     std::sort(right.begin(), right.end());
@@ -84,25 +78,22 @@ void CSCAN(int arr[], int head)
 
     cout << "Total number of seek operations = "
          << seek_count << endl;
-
-    cout << "Seek Sequence is" << endl;
-
-    for (int i = 0; i < seek_sequence.size(); i++)
-    {
-        cout << seek_sequence[i] << endl;
-    }
 }
 
 // Driver code
 int main()
 {
-
-    // request array
-    int arr[size] = {176, 79, 34, 60, 92, 11, 41, 114};
-    int head = 50;
-
+    int size;
+    cin >> size;
+    int arr[size];
+    for (int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+    int head;
+    cin >> head;
     cout << "Initial position of head: " << head << endl;
-    CSCAN(arr, head);
+    CSCAN(arr, head, size);
 
     return 0;
 }
