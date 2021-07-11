@@ -8,7 +8,6 @@ public:
         int answer = 0;
         for (int i = 0; i < nums.size(); i++)
         {
-            value[nums[i]] = 0;
             mp[nums[i]]++;
         }
         map<int, int> value;
@@ -22,7 +21,6 @@ public:
             }
             else
             {
-                bool flag = true;
                 int count = 1;
                 int value = nums[i] + 1;
                 while (mp.find(value) != mp.end())
@@ -31,12 +29,29 @@ public:
                     value++;
                 }
                 answer = max(answer, count);
+                i++;
             }
         }
-        for (int i = 0; i < nums.size(); i++)
-        {
-            cout << value[nums[i]] << " ";
-        }
         return answer;
+    }
+};
+
+class Solution
+{
+public:
+    int longestConsecutive(vector<int> &nums)
+    {
+        unordered_set<int> s(begin(nums), end(nums));
+        int longest = 0;
+        for (auto &num : s)
+        {
+            if (s.count(num - 1))
+                continue;
+            int j = 1;
+            while (s.count(num + j))
+                j++;
+            longest = max(longest, j);
+        }
+        return longest;
     }
 };
