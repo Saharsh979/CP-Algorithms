@@ -1,11 +1,7 @@
-// C++ Program to count all subarrays having
-// XOR of elements as given value m with
-// O(n) time complexity.
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// Returns count of subarrays of arr with XOR
-// value equals to m
 long long subarrayXor(int arr[], int n, int m)
 {
     long long ans = 0; // Initialize answer to be returned
