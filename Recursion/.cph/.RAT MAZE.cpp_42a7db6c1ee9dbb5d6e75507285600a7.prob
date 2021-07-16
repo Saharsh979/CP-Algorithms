@@ -1,0 +1,1 @@
+{"name":"Local: RAT MAZE","url":"/home/bifrost/CP-Algorithms/Recursion/RAT MAZE.cpp","tests":[{"id":1626423885956,"input":"1\n4\n1 0 0 0\n1 1 0 0\n1 1 0 1\n1 1 1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bifrost/CP-Algorithms/Recursion/RAT MAZE.cpp","group":"local","local":true}
