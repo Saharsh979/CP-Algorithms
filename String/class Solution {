@@ -1,0 +1,35 @@
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        
+        map<char,int> mp;
+        int size=0;
+        int ans=0;
+        
+        int i=0;
+        int j=0;
+        while(j < s.length()){
+            if(mp.find(s[j])==mp.end())
+            {
+                size++;
+                mp[s[j]]++;
+                j++;
+            }
+            else
+            {
+                char remove = s[j];
+                while(mp[remove]!=0 && i<=j)
+                {
+                    mp[s[i]]--;
+                    i++;
+                    size--;
+                }
+                size=size+1;
+                mp[s[j]]++;
+                j++;
+            }
+            ans= max(ans,size);
+        }
+        return ans;
+    }
+};
